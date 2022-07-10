@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15) # Проверка версии CMake.
 									 # Если версия установленой программы
 									 # старее указаной, произайдёт аварийный выход.
 
-set(PROJECT_NAME laba9_2)				 # имя проекта
+set(PROJECT_NAME lab9_2)				 # имя проекта
 project("${PROJECT_NAME}")
 
 
@@ -18,7 +18,6 @@ include_directories("inc/")
 link_directories("ext/SFML/lib/")	
 
 add_executable("${PROJECT_NAME}" main.cpp
-		function.cpp
 		
 )
 											
